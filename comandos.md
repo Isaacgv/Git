@@ -11,10 +11,10 @@
 	git clone _dirección https del repositorio a copiar_
 
 ###### Opcion 2: 
-Crear un directorio local y luego iniciar el repositorio
+###### Crear un directorio local y luego iniciar el repositorio local
 	git init
 
-Vincular repositorio local con el repositorio remoto
+###### Vincular repositorio local con el repositorio remoto
 	git remote add origin _dirección del repositorio remoto_
 
 ##### 2. Copiar localmente el repositorio creado en Github 
@@ -51,14 +51,13 @@ Vincular repositorio local con el repositorio remoto
 ### Adcicionar archivo o directorio
 
 ##### Adicionar um arquivo em específico
-	git add _nombre del archivo o carpeta_
+	git add _nombre del archivo o directorio_
 
 ##### Adicionar todos los archivos y carpetas
 	git add .
 
 ##### Comitar informando mensagem del archivo en especifico
 	git commit _nombre del archivo_ -m "indicar mensaje"
-
 
 ### Remover archivo o directorio
 
