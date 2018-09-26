@@ -3,6 +3,8 @@
 
 ## Primeros pasos
 
+### Creaando un repositorio
+
 ##### 1. Crear um repostorio en GitHub > https://github.com
 
 ##### 2.
@@ -11,7 +13,7 @@
 	git clone _dirección https del repositorio a copiar_
 
 ###### Opcion 2: 
-###### Crear un directorio local y luego iniciar el repositorio local
+###### Crear un directorio local con el mismo nombre del repositorio remoto y luego iniciar el repositorio local
 	git init
 
 ###### Vincular repositorio local con el repositorio remoto
@@ -33,9 +35,21 @@
 ##### 6. Indicar cuenta y clave para actualizar informacion en el GitHub
 
 
+### Actualizando modificaciones en los repositorios
+
+##### 1. Actualizar repositorio local seun los archivos adicionados o modificados
+	git add _nombre del archivo_
+
+##### 2. Confirmar los cambios realizados en el repositorio
+	git commit -m "Mensaje"
+
+##### 3. Enviar todos los cambios del repositorio local al remoto
+	git push origin master
+	
+
 ## Comandos
 
-##### ayuda a saber como funciona git o alguno de sus comandos
+##### Ayuda a saber como funciona git o alguno de sus comandos
 	git help
 
 ##### Muestra el estado del repositorio
@@ -67,6 +81,8 @@
 ##### Remover carpeta del repositorio
 	git rm -r _nombre del archivo_
 
+##### Remover archivos solo en el repositorio remoto
+	git rm --cached _nombre del archivo_
 
 
 
