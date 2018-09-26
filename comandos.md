@@ -44,25 +44,41 @@ $ git commit -m "Mensaje"
 $ git push origin master
 ```	
 
-## Comandos de ayuda
-
+## Comandos de Ayuda
 ##### Ayuda a saber como funciona git o alguno de sus comandos
 	$ git help
 
 ##### Muestra el estado del repositorio
 	$ git status
 
-##### Visualiza las conecciones realizadas 
-	$ git remote -v
-
 ##### Visualizar historico del repositorio
 	$ git log
 
+##### Crear un archivo con los commits
+	git log > commits.txt
+
+##### Visualiza las conecciones realizadas con otros repositorios
+	$ git remote -v
+
+## Comandos para interactuar con repositorio externo
+
+##### Clonar un proyecto del reositorio externo
+	git clone _direccion https_
+
+#####  Vincular nuestro proyecto local, con nuestro proyecto remoto
+	git remote add origin _https del reposiorio remoto_
+
+##### Para quitar enlace externo
+	git remote remove origin
+
+##### Manda nuestros cambios (commits) a repositorio externo
+	git push origin _nombre rama a pasar_
 
 ## Adicicionar archivo o directorio
 
 ##### Adicionar um arquivo em específico
 	$ git add _nombre del archivo o directorio_
+
 
 ##### Adicionar todos los archivos y carpetas
 	$ git add .
