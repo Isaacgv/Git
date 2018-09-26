@@ -1,10 +1,14 @@
 # GIT
 
-## Estados
 
-* Modificado (modified);
-* Preparado (staged/index)
-* Consolidado (comitted);
+## Comandos
+
+##### Mostrar el estado del los archivos locales
+	git status
+
+##### Visualizar las conecciones realizadas 
+	git remote -v
+
 
 ## Primeros pasos
 
@@ -13,10 +17,6 @@
 ##### 2. Copiar localmente repositorio creado en Github 
 	git clone _dirección https del repositorio a copiar_
 
-##### 3. Mostrar el estado del los archivos locales
-	git status
-
-##### 4.Visualizar las conecciones realizadas 
-	git remote -v
-
+##### 3. Indicar que archivo nuevo se va adcionar al git
+	git add _indicar archivo_
 
