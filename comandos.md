@@ -44,7 +44,7 @@ $ git commit -m "Mensaje"
 $ git push origin master
 ```	
 
-## Comandos de Ayuda
+## Comandos de ayuda
 ##### Ayuda a saber como funciona git o alguno de sus comandos
 	$ git help
 
@@ -63,16 +63,16 @@ $ git push origin master
 ## Comandos para interactuar con repositorio externo
 
 ##### Clonar un proyecto del reositorio externo
-	git clone _direccion https_
+	$ git clone _direccion https_
 
 #####  Vincular nuestro proyecto local, con nuestro proyecto remoto
-	git remote add origin _https del reposiorio remoto_
+	$ git remote add origin _https del reposiorio remoto_
 
 ##### Para quitar enlace externo
-	git remote remove origin
+	$ git remote remove origin
 
 ##### Manda nuestros cambios (commits) a repositorio externo
-	git push origin _nombre rama a pasar_
+	$ git push origin _nombre rama a pasar_
 
 ## Adicicionar archivo o directorio
 
