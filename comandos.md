@@ -34,14 +34,14 @@
 ### Actualizando modificaciones en los repositorios
 
 ```bash
-##### 1. Actualizar repositorio local seun los archivos adicionados o modificados
-	git add _nombre del archivo_
+# 1. Actualizar repositorio local seun los archivos adicionados o modificados
+$ git add _nombre del archivo_
 
-##### 2. Confirmar los cambios realizados en el repositorio
-	git commit -m "Mensaje"
+# 2. Confirmar los cambios realizados en el repositorio
+$ git commit -m "Mensaje"
 
-##### 3. Enviar todos los cambios del repositorio local al remoto
-	git push origin master
+# 3. Enviar todos los cambios del repositorio local al remoto
+$ git push origin master
 ```	
 
 ## Comandos de ayuda
