@@ -3,26 +3,40 @@
 
 ## Primeros pasos
 
-Cuando se crea el repositorio en GitHub
+##### 1. Crear um repostorio en GitHub > https://github.com
 
-##### 1. Crear Repostorio en GitHub
-	
-##### 2. Copiar localmente repositorio creado en Github 
+##### 2.
+ 
+###### Opcion 1: Copiar localmente el repositorio creado en Github 
 	git clone _dirección https del repositorio a copiar_
 
-##### 3. Indicar que archivo o carperta se va adicionar al git
-	git add _indicar archivo o carpeta_
+###### Opcion 2: 
+Crear un directorio local y luego iniciar el repositorio
+	git init
 
-##### 4. Guardar los cambios con un mensaje para identificarlos en git
+Vincular repositorio local con el repositorio remoto
+	git remote add origin _dirección del repositorio remoto_
+
+##### 2. Copiar localmente el repositorio creado en Github 
+	git clone _dirección https del repositorio a copiar_
+
+
+##### 3. Indicar que archivo o carperta se va adicionar al repositorio
+	git add _indicar archivo o directorio_
+
+##### 4. Confirmar los cambios realizados en los archivos o directorios, se tiene que indicar un comentario
 	git commit -m "Mensaje"
 
 ##### 5. Mandar todos nuestros cambios (commits) a Github
-	git push
+	git push 
 
 ##### 6. Indicar cuenta y clave para actualizar informacion en el GitHub
 
 
 ## Comandos
+
+##### ayuda a saber como funciona git o alguno de sus comandos
+	git help
 
 ##### Muestra el estado del repositorio
 	git status
@@ -34,19 +48,13 @@ Cuando se crea el repositorio en GitHub
 	git log
 
 
-### Adcicionar archivo o carpeta
+### Adcicionar archivo o directorio
 
 ##### Adicionar um arquivo em específico
 	git add _nombre del archivo o carpeta_
 
 ##### Adicionar todos los archivos y carpetas
 	git add .
-
-
-### Comitar archivo o carpeta
-
-##### Comitar archivo 
-	git commit _nombre del archivo_
 
 ##### Comitar informando mensagem del archivo en especifico
 	git commit _nombre del archivo_ -m "indicar mensaje"
