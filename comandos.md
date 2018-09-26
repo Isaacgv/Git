@@ -59,7 +59,7 @@ $ git push origin master
 	$ git log
 
 
-## Adcicionar archivo o directorio
+## Adicicionar archivo o directorio
 
 ##### Adicionar um arquivo em específico
 	$ git add _nombre del archivo o directorio_
