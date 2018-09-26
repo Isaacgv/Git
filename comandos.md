@@ -33,6 +33,7 @@
 
 ### Actualizando modificaciones en los repositorios
 
+```bash
 ##### 1. Actualizar repositorio local seun los archivos adicionados o modificados
 	git add _nombre del archivo_
 
@@ -41,7 +42,7 @@
 
 ##### 3. Enviar todos los cambios del repositorio local al remoto
 	git push origin master
-	
+```	
 
 ## Comandos de ayuda
 
