@@ -30,18 +30,38 @@ Cuando se crea el repositorio en GitHub
 ##### Visualiza las conecciones realizadas 
 	git remote -v
 
+##### Visualizar historico del repositorio
+	git log
+
+
+### Adcicionar archivo o carpeta
+
+##### Adicionar um arquivo em específico
+	git add _nombre del archivo o carpeta_
+
+##### Adicionar todos los archivos y carpetas
+	git add .
+
+
 ### Comitar archivo o carpeta
 
-#####Comitar archivo 
+##### Comitar archivo 
 	git commit _nombre del archivo_
+
+##### Comitar informando mensagem del archivo en especifico
+	git commit _nombre del archivo_ -m "indicar mensaje"
+
 
 ### Remover archivo o directorio
 
-#####Remover arquivo del repositorio
+##### Remover arquivo del repositorio
 	git rm _nombre del archivo_
 
-#####Remover carpeta del repositorio
+##### Remover carpeta del repositorio
 	git rm -r _nombre del archivo_
+
+
+
 
 
 
