@@ -3,10 +3,10 @@
 
 ## Comandos
 
-##### Mostrar el estado del los archivos locales
+##### Muestra el estado del los archivos locales
 	git status
 
-##### Visualizar las conecciones realizadas 
+##### Visualiza las conecciones realizadas 
 	git remote -v
 
 
@@ -17,6 +17,11 @@
 ##### 2. Copiar localmente repositorio creado en Github 
 	git clone _dirección https del repositorio a copiar_
 
-##### 3. Indicar que archivo nuevo se va adcionar al git
+##### 3. Indicar que archivo nuevo o modificado se va adcionar al git
 	git add _indicar archivo_
 
+##### 4. Guardar los cambios con un mensaje para identificarlos en git
+	git commit -m "Mensaje"
+
+##### 5. Mandar todos nuestros cambios (commits) a Github
+	git push origin
